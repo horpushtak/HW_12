@@ -1,0 +1,36 @@
+INFO:werkzeug: * Running on http://127.0.0.1:5000 (Press CTRL+C to quit)
+INFO:root:Открытие главной страницы
+INFO:werkzeug:127.0.0.1 - - [08/May/2022 15:27:16] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/May/2022 15:27:17] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [08/May/2022 15:27:23] "GET /post HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/May/2022 15:27:23] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:root:Открытие главной страницы
+INFO:werkzeug:127.0.0.1 - - [08/May/2022 15:27:52] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/May/2022 15:27:52] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [08/May/2022 15:27:54] "GET /post HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/May/2022 15:27:54] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000 (Press CTRL+C to quit)
+INFO:werkzeug: * Running on http://127.0.0.1:5000 (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [08/May/2022 16:03:11] "GET /post HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/May/2022 16:03:12] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [08/May/2022 16:03:30] "POST /post HTTP/1.1" 200 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000 (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [08/May/2022 16:21:41] "GET /post HTTP/1.1" 200 -
+INFO:root:Открытие главной страницы
+INFO:werkzeug:127.0.0.1 - - [08/May/2022 16:21:45] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/May/2022 16:21:45] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [08/May/2022 16:22:15] "GET /post HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/May/2022 16:22:15] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [08/May/2022 16:23:15] "POST /post HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/May/2022 16:23:15] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [08/May/2022 16:23:15] "GET /uploads/images/tmp1D6Fxc.jpeg HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/May/2022 16:24:14] "GET /post HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/May/2022 16:24:14] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:root:Открытие главной страницы
+INFO:werkzeug:127.0.0.1 - - [08/May/2022 16:24:15] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/May/2022 16:24:15] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:root:Выполняется поиск
+INFO:werkzeug:127.0.0.1 - - [08/May/2022 16:24:19] "GET /search?s=гойя HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/May/2022 16:24:19] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [08/May/2022 16:24:19] "[36mGET /uploads/images/tmp1D6Fxc.jpeg HTTP/1.1[0m" 304 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000 (Press CTRL+C to quit)
