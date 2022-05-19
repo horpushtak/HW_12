@@ -29,10 +29,11 @@ def page_post_upload():
 app.register_blueprint(main_blueprint)
 app.register_blueprint(loader_blueprint)
 
+
 @app.route("/uploads/<path:path>")
 def static_dir(path):
     return send_from_directory("uploads", path)
 
 
 if __name__ == "__main__":
-    app.run()
+    app.run(debug=True, port=1012)

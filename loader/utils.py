@@ -2,6 +2,7 @@ from config import UPLOAD_FOLDER, POST_PATH
 from exсeptions import WrongImgType
 import json
 
+
 def save_uploaded_image(picture):
     allowed_type = ["jpg", "jpeg", "png", "gif"]
     picture_type = picture.filename.split('.')[-1]
@@ -14,7 +15,7 @@ def save_uploaded_image(picture):
     return picture_path
 
 
-def load_post(posts_list, post):
+def load_post(posts_list, new_post):
     posts_list.append(new_post)  # Добавляем к списку новый пост
     with open(POST_PATH, "w", encoding="utf-8") as file:
         # Записываем обновлённый список в posts.json стирая старую инфу и целиком

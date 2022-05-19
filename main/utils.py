@@ -1,6 +1,7 @@
 import json
 from exсeptions import DataJsonError
 
+
 def load_json_data(path):
     try:
         with open(path, "r", encoding="UTF-8") as file:  # на 40 минуте объяснение рейза ошибки на предмет наличия файла
@@ -10,7 +11,7 @@ def load_json_data(path):
 
 
 def search_post_by_substring(posts, substring):
-    posts_founded = []  # Никак не уловлю, почему список, возможно для лёгкости перебора, ведь куда ещё складывать?
+    posts_founded = []
     for post in posts:
         if substring.lower() in post["content"].lower():
             posts_founded.append(post)
